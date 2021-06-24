@@ -1,0 +1,81 @@
+body{
+	background-color: rgb(0,0,0);
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+.heading {
+    color: red;
+    text-align: center;
+}
+#starbtn {
+    top: 400px;
+
+    left: 250px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.reset {
+    display: none;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.reset-btn {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(45, 117, 96);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: rgb(228, 157, 157);
+    color: black;
+}
+.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
+.intro {
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease;
+}
+.intro button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(45, 117, 96);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.intro h1 {
+    font-size: 50px;
+}
+
+.match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
+    color: white;
+}
